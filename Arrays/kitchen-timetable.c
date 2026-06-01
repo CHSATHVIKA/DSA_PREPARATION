@@ -1,0 +1,43 @@
+#include <stdio.h>
+
+int main() {
+
+    int t;
+    scanf("%d", &t);
+
+    while (t--) {
+        int n;
+        scanf("%d", &n);
+        int a[n], b[n];
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &a[i]);
+        }
+
+        for (int i = 0; i < n; i++) {
+            scanf("%d", &b[i]);
+        }
+
+        int count = 0;
+
+        for (int i = 0; i < n; i++) {
+
+            int available;
+
+            if (i == 0) {
+                available = a[i];
+            }
+
+            else {
+                available = a[i] - a[i - 1];
+            }
+
+            if (available >= b[i]) {
+                count++;
+            }
+        }
+
+        printf("%d\n", count);
+    }
+
+    return 0;
+}
