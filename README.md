@@ -21,7 +21,7 @@ This repo is my public proof of that process.
 
 | Content                     | Purpose                                               |
 | --------------------------- | ----------------------------------------------------- |
-| ✅ Pure C solutions          | Strengthen fundamentals & logic building              |
+| ✅ Pure C and java solutions          | Strengthen fundamentals & logic building              |
 | ✅ Time Complexity Analysis  | Learn how solutions scale                             |
 | ✅ Space Complexity Analysis | Write memory-aware code                               |
 | ✅ Topic-wise DSA practice   | Arrays → Strings → Linked Lists → Trees → Graphs → DP |
